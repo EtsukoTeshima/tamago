@@ -1,0 +1,54 @@
+.sex{
+    width: auto;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+    top: 60%;
+    left: 28%;
+
+}
+.a{
+    width: auto;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    /* position: absolute; */
+    top: 60%;
+    padding: 10%;
+}
+
+.otoko{
+    width: 80px;
+    height: 80px;
+    color: #ffffff;
+    background-color: #2779bd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: bold;
+    border: 2px solid;
+    border-color: #ffffff;
+    border-radius: 50%;
+    cursor: pointer;
+    text-decoration: none;
+}
+.onna{
+    width: 80px;
+    height: 80px;
+    color: #ffffff;
+    background-color: #d064ae;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: bold; 
+    border: 2px solid;
+    border-color: #ffffff;
+    border-style: solid;
+    border-radius: 50%;
+    cursor: pointer;
+}

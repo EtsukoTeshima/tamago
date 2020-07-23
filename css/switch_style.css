@@ -1,0 +1,106 @@
+.container {
+  font-family: "Yu Gothic", YuGothic, Verdana, 'Hiragino Kaku Gothic ProN','Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ Pro W3', 'メイリオ', Meiryo, sans-serif;
+  text-align: center;
+  padding-top: 40px;
+}
+
+
+/* ここから下がボタンのCSS　*/
+.btn-animation-02 {
+  display: inline-block;
+  width: 200px;
+  text-align: center;
+  background-color: #e8425e;
+  border: 2px solid #e8425e;
+  font-size: 16px;
+  color: #e8425e;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px 24px;
+  border-radius: 4px;
+  position: relative;
+}
+
+.btn-animation-02 span {
+  position: relative;
+  z-index: 1;
+}
+
+.btn-animation-02::before,
+.btn-animation-02::after {
+  content: "";
+  display: block;
+  background-color: #FFF;
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  transition: .2s;
+}
+.btn-animation-02::before {
+  left: 0;
+}
+.btn-animation-02::after {
+  right: 0;
+}
+
+.btn-animation-02:hover:before,
+.btn-animation-02:hover:after {
+  width: 0;
+  background-color: #FFF;
+}
+
+.btn-animation-02:hover {
+  color: #FFF;
+}
+
+
+/* ここから下がボタンのCSS　*/
+.btn-animation-03 {
+  margin-top: 15px;
+  display: inline-block;
+  width: 200px;
+  text-align: center;
+  background-color: #98a3ae;
+  border: 2px solid #98a3ae;
+  font-size: 16px;
+  color: #98a3ae;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px 24px;
+  border-radius: 4px;
+  position: relative;
+}
+
+.btn-animation-03 span {
+  position: relative;
+  z-index: 1;
+}
+
+.btn-animation-03::before,
+.btn-animation-03::after {
+  content: "";
+  display: block;
+  background-color: #FFF;
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  transition: .2s;
+}
+.btn-animation-03::before {
+  left: 0;
+}
+.btn-animation-03::after {
+  right: 0;
+}
+
+.btn-animation-03:hover:before,
+.btn-animation-03:hover:after {
+  width: 0;
+  background-color: #FFF;
+}
+
+.btn-animation-03:hover {
+  color: #FFF;
+}
